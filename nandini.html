@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title> My Resume </title>
+    </head>
+    <body>
+        <form action="" method="get "> 
+            <h1> Payment form</h1>
+            <p> required information to be filled are followed by *</p>
+            <h2>contact information </h2>
+            <p> Name:* <input type="text"  name="name" required></p>
+            <fieldset>
+                <legend> Gender *</legend>
+            
+            <p> Male <input type="radio" id="male" name="gender" required>  Female <input type="radio" id="female" name="gender" required> </p>
+        </fieldset>
+        <p> Address:  <textarea id="address" cols="50" rows="8"> 
+
+        </textarea></p>
+        <p>Email *<input type="email" name="email" id="email" required></p>
+        <p> pincode: *<input type="number" name="pincode" id="pincode" required> </p> 
+        <hr>
+        <h2> Payment information</h2>
+        <p> Card type *<select name="card_type" id="card_type" required >
+            <option value="">--Select a card type--</option>
+            <option value="Visa">Visa</option>
+            <option value="Rupay">Rupay</option>
+            <option value="Master card">Master card</option>
+            <option value="Paytm">Paytm</option>
+        </select> </p>
+        <p>
+            Card Number * <input type="number" id="card number" name="card number" required > 
+        </p>
+                Expiration Date: *<input type="date" id="expiration" name="expiration" required>
+            </p>
+<p>
+    CVV *<input type="password" name="cvv" id="cvv" required>
+</p>
+<input type="submit" value="pay now"> <input type="reset" value="reset"> 
+        
+        </form>
+            
+    </body>
+    </html>
